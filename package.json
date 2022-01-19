@@ -1,0 +1,40 @@
+{
+  "name": "oracle",
+  "version": "1.0.0",
+  "description": "Oracle for moving tokens and code to and from the FIO chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js",
+    "dev": "cross-env MODE=development nodemon -r esm server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.25.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@fioprotocol/fiojs": "^1.0.1",
+    "@fioprotocol/fiosdk": "^1.2.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.2.0",
+    "esm": "^3.2.25",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.1.4",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mathjs": "^9.3.2",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.7",
+    "node-file-cache": "^1.0.2",
+    "node-libcurl": "^2.3.2",
+    "redis": "^3.1.2",
+    "text-encoding": "^0.7.0",
+    "util": "^0.12.4"
+  }
+}
