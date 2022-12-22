@@ -1,2 +1,1 @@
-# fio-staking-service
-Service to return staking data.
+This service was not deployed and is archived.
